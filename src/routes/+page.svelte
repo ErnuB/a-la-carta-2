@@ -4,11 +4,12 @@
 
 <style>
     :global(body) {
-        background-image: url('./image/menu_inteligente.png');
+        background-image: url('/image/menu_inteligente.png');
         background-color: #91e0ff;
+        min-height: 100vh;
     }
     :global(.alacartaimg) {
-        background-image: url('./image/menu-img.png');
+        background-image: url('/image/menu-img.jpg');
     }
 </style>
 
@@ -27,17 +28,18 @@
 <div class="flex justify-center my-8">
     <h2 class="text-3xl font-extrabold font-prompt">Nuestos Clientes</h2>
 </div>
-<div class="grid grid-cols-2 m-8 gap-4">
-        <img src="/image/logo-alicletas.png" alt="Alicletas" class="drop-shadow-[7.0px_7.0px_3.0px_rgba(0,0,0,0.8)] w-40">
-        <img src="/image/bruneta.png" alt="La Bruneta" class="drop-shadow-[7.0px_7.0px_3.0px_rgba(0,0,0,0.8)]">
-        <img src="/image/finca.png" alt="La Finca" class="drop-shadow-[7.0px_7.0px_3.0px_rgba(0,0,0,0.8)]">
-        <div class="relative">
-            <img src="image/streetdogs_alt.png" alt="Streetdogs" class="drop-shadow-[7.0px_7.0px_3.0px_rgba(0,0,0,0.8)] w-32">
-            <p class="absolute -bottom-3 left-0 font-extrabold text-lg tracking-tighter">STREETDOGS</p>
+<div class="grid grid-cols-2 mt-8 mb-20 gap-4 mx-8 md:grid-cols-3">
+        <a href="https://alicletas.alacarta.com.mx" target="_blank"><img src="/image/logo-alicletas.png" alt="Alicletas" class="drop-shadow-[7.0px_7.0px_3.0px_rgba(0,0,0,0.8)] w-40 md:w-52"></a>
+        <a href="https://labruneta.alacarta.com.mx" target="_blank"><img src="/image/bruneta.png" alt="La Bruneta" class="drop-shadow-[7.0px_7.0px_3.0px_rgba(0,0,0,0.8)] md:w-52"></a>
+        <a href="https://lafinca.alacarta.com.mx" target="_blank"><img src="/image/finca.png" alt="La Finca" class="drop-shadow-[7.0px_7.0px_3.0px_rgba(0,0,0,0.8)] md:w-52"></a>
+        <div class="bg-violet-950 flex justify-center items-center px-2 h-20 rounded-xl self-center drop-shadow-[7.0px_7.0px_3.0px_rgba(0,0,0,0.8)]">
+            <a href="https://mimocorito.alacarta.com.mx" target="_blank"><img src="/image/mimocorito.png" alt="Mi Mocorito" class="drop-shadow-[7.0px_7.0px_3.0px_rgba(0,0,0,0.8)] w-40 md:w-52"></a>
         </div>
-        <img src="/image/img1.png" alt="La Torcua" class="drop-shadow-[7.0px_7.0px_3.0px_rgba(0,0,0,0.8)]">
+        <a href="https://streetdogs.alacarta.com.mx" target="_blank"><img src="image/streetdogs_alt.png" alt="Streetdogs" class="drop-shadow-[7.0px_7.0px_3.0px_rgba(0,0,0,0.8)] w-40 md:w-52"></a>
+        <a href="https://latorcua.alacarta.com.mx" target="_blank"><img src="/image/img1.png" alt="La Torcua" class="drop-shadow-[7.0px_7.0px_3.0px_rgba(0,0,0,0.8)] w-40 md:w-52"></a>
+        <a href="https://odettecafe.alacarta.com.mx" target="_blank"><img src="/image/odette.jpg" alt="Odette Café" class="drop-shadow-[7.0px_7.0px_3.0px_rgba(0,0,0,0.8)] w-40 md:w-52 rounded-xl"></a>
 </div>
-<footer class="sticky bottom-0 w-full bg-slate-800 h-14 mt-8 flex justify-evenly text-carta-secondary items-center text-3xl">
+<footer class="fixed bottom-0 w-full bg-slate-800 h-14 flex justify-evenly text-carta-secondary items-center text-3xl">
     <a href="https://www.facebook.com/alacarta.com.mx" target="_blank">
         <i class="fa-brands fa-square-facebook"></i>
     </a>
